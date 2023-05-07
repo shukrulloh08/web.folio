@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-    width: 1140px;
+    width: 980px;
     margin: 0 auto;
 }
 
@@ -54,13 +54,13 @@ nav .nav-box{
 }
 
 .nav-list{
-    margin-left: 530px;
+    margin-left: 520px;
     display: flex;
 }
 
 .nav-link{
    margin: 1px 20px;
-   font-size: 16px;
+   font-size: 18px;
    color: white;
    transition: .3;
 }
@@ -81,8 +81,8 @@ nav .nav-box{
 }
 
 .nav-link1{
-    margin: 1px 490px 0 20px;
-    font-size: 16px;
+    margin: 1px 460px 0 20px;
+    font-size: 18px;
     color: white;
     transition: .3;
 }
