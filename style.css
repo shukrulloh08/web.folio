@@ -77,6 +77,12 @@ nav .nav-box{
     margin-top: 1px;
 }
 
+.div-noviy:hover .noviy-all{
+    display: block;
+    transform: translate(-50px);
+    transition: 1s;
+}
+
 .nav-link1{
     margin: 1px 460px 0 20px;
     font-size: 18px;
@@ -182,3 +188,13 @@ nav .nav-box{
     color: #FFFFFF99;
     line-height: 22px;
 }
+
+.div-noviy{
+    position: relative;
+}
+
+.noviy-all{
+    position: absolute;
+    display: none;
+}
+
