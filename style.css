@@ -90,6 +90,30 @@ nav .nav-box{
     color: rgba(255, 255, 255, 0.425);
 }
 
-.main-left a{
+.main-all {
     display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.main-left{
+    width: 530px;
+}
+
+.main-left h3{
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.main-left p{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
