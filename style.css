@@ -28,10 +28,6 @@ header{
     width: 1740px; */
 }
 
-p{
-    color: #4A4A4A;
-}
-
 nav .nav-box{
     display: flex;
     justify-content: space-between;
@@ -92,4 +88,8 @@ nav .nav-box{
     /* margin: 0 240px 0 20px; */
     border-bottom: solid 1px rgba(255,255,255,0.425);
     color: rgba(255, 255, 255, 0.425);
+}
+
+.main-left a{
+    display: flex;
 }
