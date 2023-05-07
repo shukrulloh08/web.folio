@@ -24,6 +24,7 @@ body{
 
 header{
     background: #010032;
+    margin-bottom: 100px;
 }
 
 nav .nav-box{
@@ -275,13 +276,24 @@ nav .nav-box{
     text-align: center;
     border: 1px solid blue;
     transition: .7s;
-   
 }
 
 .registor-b:hover{
     background-color: blue;
     box-shadow: 0px 0px 100px 0px blue;
     transition: .7s;
+}
+
+.a-icon{
+    width: 140px;  
+    display: flex;
+    margin-bottom: 250px;
+    justify-content: space-between;
+}
+
+.a-icon p{
+    color:#4543E8;
+    font-weight: 700;
 }
 
 
