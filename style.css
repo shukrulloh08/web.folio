@@ -92,7 +92,7 @@ nav .nav-box{
 
 .main-all {
     display: flex;
-    margin-top: 120px;
+    margin-top: 100px;
     justify-content: space-between;
 }
 
@@ -105,7 +105,7 @@ nav .nav-box{
     font-weight: 400;
     line-height: 70px;
     color: #ffffff;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .main-left p{
@@ -113,7 +113,17 @@ nav .nav-box{
     font-weight: 400;
     color: white;
     line-height: 34px;
-    letter-spacing: 0em;
-    text-align: left;
+    margin-bottom: 20px;
+}
 
+.main-left a p{
+    height: 60px;
+    width: 203px;
+    color: black;
+    margin-left: 15px;
+    padding: 10px ;
+    text-align: center;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 32px;
 }
