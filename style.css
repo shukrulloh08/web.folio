@@ -77,7 +77,6 @@ nav .nav-box{
 
 .div-noviy:hover .noviy-all{
     display: block;
-    transition: 1s;
 }
 
 .nav-link1{
@@ -256,10 +255,6 @@ nav .nav-box{
     display: block;
 }
 
-.sign-all{
-    
-}
-
 .sign-all p{
     font-size: 18px;
     word-spacing: 0;
@@ -291,13 +286,17 @@ nav .nav-box{
 .a-icon{
     width: 140px;  
     display: flex;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
     justify-content: space-between;
 }
 
 .a-icon p{
     color:#4543E8;
     font-weight: 700;
+}
+
+.fa-star{
+    font-size: 24px;
 }
 
 
