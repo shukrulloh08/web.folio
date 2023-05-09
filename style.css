@@ -493,6 +493,7 @@ nav .nav-box{
 .blue{
     background: #010032;
     height: 1000px;
+    padding-top: 100px;
 }
 
 .b-icon a{
@@ -507,10 +508,38 @@ nav .nav-box{
     color: #ffffff;
     font-weight: 400;
     line-height: 58px;
-
 }
 
+.blue-all{
+    display: flex;
+    justify-content: space-between;
+}
 
+.blue-icon strong{
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    color: #D8D8EB;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.blue-icon i{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.blue-icon p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #D8D8EB;
+}
+
+.blue-icon{
+    width: 290px;
+    margin-left: 340px;
+}
 
 
 
