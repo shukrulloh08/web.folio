@@ -490,8 +490,24 @@ nav .nav-box{
     height: 600px;
 }
 
-.blue-all{
-    
+.blue{
+    background: #010032;
+    height: 1000px;
+}
+
+.b-icon a{
+    color: #D8D8EB;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.blue-text p{
+    width: 350px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 58px;
+
 }
 
 
