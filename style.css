@@ -492,7 +492,6 @@ nav .nav-box{
 
 .blue{
     background: #010032;
-    height: 1000px;
     padding-top: 100px;
 }
 
@@ -513,6 +512,7 @@ nav .nav-box{
 .blue-all{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .blue-icon strong{
@@ -532,7 +532,7 @@ nav .nav-box{
 .blue-icon p{
     font-size: 20px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 30px;
     color: #D8D8EB;
 }
 
@@ -541,5 +541,72 @@ nav .nav-box{
     margin-left: 340px;
 }
 
+.blue-vector{
+    width: 290px;
+    margin-left: 100px;
+}
+
+.blue-vector strong{
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    color: #D8D8EB;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.blue-vector i{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.blue-vector p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #D8D8EB;
+}
+
+.blue-start img{
+    display: block;
+    margin-top: 80px;
+    margin-left: 170px;
+    margin-bottom: 150px;
+}
+
+.blue-start a{
+    margin-right: 100px;
+    height: 69px;
+    width: 272px;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 20px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    transition: 1s;
+}
+
+.blue-start a:hover{
+    background-color: aqua;
+    transition: 1s;
+    box-shadow: 0px 0px 200px 0px aqua;
+}
+
+.fa{
+    color: #D8D8EB;
+    transition: 1s;
+}
+
+.fa:hover{
+    color: aqua;
+    transition: 1s;
+    box-shadow: 0px 0px 100px 0px aqua;
+}
 
 
