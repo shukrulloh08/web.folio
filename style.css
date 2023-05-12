@@ -770,4 +770,48 @@ nav .nav-box{
     font-weight: 700;
 }
 
+.white-can-box h1{
+    color: #4543E8;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.white-can{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.white-can-box strong{
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.pipi{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px
+}
+
+.white-can-box p{
+    width: 340px;       
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.a{
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 53px;
+    text-align: center;
+
+}
+
+
+
 
