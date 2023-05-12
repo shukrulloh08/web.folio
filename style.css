@@ -804,12 +804,75 @@ nav .nav-box{
 }
 
 .a{
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 400;
     margin-top: 20px;
     line-height: 53px;
     text-align: center;
+}
 
+.white-sec-photo strong{
+    font-size: 24px;
+    font-weight: 450;
+    margin-top:10px;
+    line-height: 30px;
+}
+
+.white-sec-photo p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.white-sec-photo-all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.links{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px; 
+    margin: 100px auto;
+    width: 180px;
+    text-align: center;
+    color: #4543E8;
+}
+
+.links:hover{
+    border-bottom:1px solid  #4543E8 ;
+}
+
+.dir-text p{
+    width: 600px;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 1.2000000476837158px;
+    text-align: left;
+}
+
+.dir-text a{
+    height: 65px;
+    width: 274px;
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    border-radius: 32px;
+    background: #4543E8;
+
+
+
+}
+
+.dir-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
