@@ -66,6 +66,7 @@ nav .nav-box{
 }
 
 .nav-link:hover{
+    cursor: pointer;
     transition: .3s;
     margin: 0 20px;
     transform: scale(1.1);
@@ -83,6 +84,7 @@ nav .nav-box{
 
 .div-noviy:hover .noviy-all{
     display: block;
+    cursor: pointer;
 }
 
 .nav-link1{
@@ -94,6 +96,7 @@ nav .nav-box{
 
 .nav-link1:hover{
     transition: .3s;
+    cursor: pointer;
     /* margin: 0 240px 0 20px; */
     border-bottom: solid 1px aqua;
     transform: scale(1.1);
@@ -104,6 +107,7 @@ nav .nav-box{
 .fa-bars:hover{
     color: aqua;
     transition: .5s;
+    cursor: pointer;
     box-shadow: 0px 0px 50px 0px aqua;
 }
 
@@ -153,6 +157,7 @@ nav .nav-box{
 }
 
 .main-left a :hover{
+    cursor: pointer;
     background-color: aqua;
     transition: 1s;
     transform: scale(1.1);
@@ -224,14 +229,15 @@ nav .nav-box{
 .noviy-drop p:hover{
     border-bottom:solid 1px black ;
     transition: .3s;
+    cursor: pointer;
 }
 
 .sign-all{
     width: 300px;
     height: 300px;
     border-radius: 7px;
-    box-shadow: 0px 0px 200px 0px aqua;
-    background-color: aqua;
+    box-shadow: 0px 0px 200px 0px rgb(174, 172, 172);
+    background-color: rgb(174, 172, 172);
     display: none;
     position: absolute;
     right: 30px;
@@ -243,7 +249,7 @@ nav .nav-box{
     height: 35px;
     outline: none;
     border: none;
-    background-color: aqua;
+    background-color:rgb(174, 172, 172);
     border:  solid 2px rgba(7, 7, 7, 0.411);
     
 }
@@ -261,6 +267,7 @@ nav .nav-box{
 
 .sign:hover .sign-all{
     display: block;
+    cursor: pointer;
 }
 
 .sign-all p{
@@ -289,13 +296,16 @@ nav .nav-box{
     background-color: blue;
     box-shadow: 0px 0px 100px 0px blue;
     transition: .7s;
+    cursor: pointer;
 }
 
 .a-icon{
     width: 140px;  
     display: flex;
     margin-bottom: 100px;
+    margin-left: -80px;
     justify-content: space-between;
+    transition: .5s;
 }
 
 .a-icon img{
@@ -303,6 +313,19 @@ nav .nav-box{
     height: 100%;
     margin-right: 10px;
     margin-top: 5px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.a-icon:hover img{
+    opacity: 100;
+    transform: translate(1px);
+    transition: .5s;
+}
+
+.a-icon:hover{
+    transform: translate(80px);
+    transition: .5s;
 }
 
 .a-icon p{
@@ -470,9 +493,10 @@ nav .nav-box{
 }
 
 .tion-photo img:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
     transition: 1s;
-    margin-bottom: 30px;
+    cursor: pointer;
+    cursor: pointer;
 }
 
 .blue-phon{
@@ -599,6 +623,7 @@ nav .nav-box{
 .blue-start a:hover{
     background-color: aqua;
     transition: 1s;
+    cursor: pointer;
     transform: scale(1.1);
     box-shadow: 0px 0px 200px 0px aqua;
 }
@@ -611,6 +636,7 @@ nav .nav-box{
 .fa:hover{
     color: aqua;
     transition: 1s;
+    cursor: pointer;
     transform: scale(1.1);
     box-shadow: 0px 0px 100px 0px aqua;
 }
@@ -625,11 +651,18 @@ nav .nav-box{
     justify-content: center;
     padding-top: 100px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .class-icons img{
     height: 100%;
-    margin-top: 10px;
+    margin-top: 8px;
+    margin-left: -30px;
+    opacity: 0;
+}
+
+.class-icons img:nth-child(1){
+    margin-right:-30px;
 }
 
 .class-icons p{
@@ -639,6 +672,18 @@ nav .nav-box{
     margin: 0 10px;
     line-height: 24px;
     letter-spacing: 2px;
+}
+
+.class-icons:hover img:nth-child(1){
+    opacity: 100;
+    transform: translate(-35px);
+    transition: 1s;
+}
+
+.class-icons:hover img:nth-child(3){
+    opacity: 100;
+    transform: translate(30px);
+    transition: 1s;
 }
 
 .class-all-text{
@@ -723,6 +768,7 @@ nav .nav-box{
 
 .class-strelka i:nth-child(1):hover{
     color: #4543E8;
+    cursor: pointer;
     transition: .5s;
     transform: translate(-10px);
 }
@@ -730,6 +776,7 @@ nav .nav-box{
 .class-strelka i:nth-child(2):hover{
     color: #4543E8;
     transition: .5s;
+    cursor: pointer;
     transform: translate(10px);
 }
 
@@ -842,6 +889,7 @@ nav .nav-box{
 
 .links:hover{
     border-bottom:1px solid  #4543E8 ;
+    cursor: pointer;
 }
 
 .dir-text p{
@@ -864,15 +912,24 @@ nav .nav-box{
     line-height: 25px;
     border-radius: 32px;
     background: #4543E8;
-
-
-
 }
 
 .dir-text{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.fa-star{
+    color:#4543E8;
+    transition: 0.5s;
+}
+
+.fa-star:hover{
+    color: #F5DB76;
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 
