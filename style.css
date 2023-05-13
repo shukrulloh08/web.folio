@@ -69,8 +69,7 @@ nav .nav-box{
     cursor: pointer;
     transition: .3s;
     margin: 0 20px;
-    transform: scale(1.1);
-    border-bottom: solid 1px aqua;
+    transform: scale(1.01);
     color:aqua;
     box-shadow: 0px 0px 100px 0px aqua;
 }
@@ -98,8 +97,7 @@ nav .nav-box{
     transition: .3s;
     cursor: pointer;
     /* margin: 0 240px 0 20px; */
-    border-bottom: solid 1px aqua;
-    transform: scale(1.1);
+    transform: scale(1.01);
     color:aqua;
     box-shadow: 0px 0px 100px 0px aqua;
 }
@@ -208,7 +206,7 @@ nav .nav-box{
     position: absolute;
     word-spacing: 20px;
     right: 6px;
-    top: 25px;
+    top: 22px;
     padding: 0 25px;
     border-radius:10px;
     background-color:aqua;
@@ -306,6 +304,7 @@ nav .nav-box{
     margin-left: -80px;
     justify-content: space-between;
     transition: .7s;
+    cursor: pointer;
 }
 
 .a-icon img{
@@ -657,6 +656,7 @@ nav .nav-box{
     height: 100%;
     margin-top: 8px;
     margin-left: -30px;
+    transition: .5s;
     opacity: 0;
 }
 
@@ -670,18 +670,26 @@ nav .nav-box{
     color: #4543E8;
     margin: 0 10px;
     line-height: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 2px; 
+    background-color: #e5e5ed;
+    position: relative;
 }
 
 .class-icons:hover img:nth-child(1){
     opacity: 100;
-    transform: translate(-35px);
+    transform: translate(-45px) rotateY(360deg);
     transition: 1s;
 }
 
 .class-icons:hover img:nth-child(3){
     opacity: 100;
-    transform: translate(30px);
+    transform: translate(40px) rotateY(-360deg);
+    transition: 1s;
+}
+
+.class-text:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35)  0px -2px 6px 0px inset, 0px 0px 20px 0px rgb(90, 88, 88);
+    transform: scale(1.06);
     transition: 1s;
 }
 
@@ -699,6 +707,7 @@ nav .nav-box{
     width: 576px;
     background: #FFFFFF;
     border-radius: 15px;
+    transition: 1s;
     border-bottom-right-radius: 0;
     padding: 30px;;
 }
@@ -932,43 +941,43 @@ nav .nav-box{
 }
 
 
-@media(max-width:1620px ){
+@media(max-width:1630px ){
     .nav-box{
         width: 1500px;
     }
 }
 
-@media(max-width:1520px ){
+@media(max-width:1530px ){
     .nav-box{
         width: 1400px;
     }
 }
 
-@media(max-width:1420px ){
+@media(max-width:1430px ){
     .nav-box{
         width: 1300px;
     }
 }
 
-@media(max-width:1320px ){
+@media(max-width:1330px ){
     .nav-box{
         width: 1200px;
     }
 }
 
-@media(max-width:1220px ){
+@media(max-width:1230px ){
     .nav-box{
         width: 1100px;
     }
 }
 
-@media(max-width:1120px ){
+@media(max-width:1130px ){
     .nav-box{
         width: 1000px;
     }
 }
 
-@media(max-width:1020px ){
+@media(max-width:1030px ){
     .nav-box{
         width: 900px;
     }
