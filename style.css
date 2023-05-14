@@ -54,24 +54,34 @@ nav .nav-box{
 }
 
 .nav-list{
-    margin-left: 520px;
+    margin-left: 500px;
     display: flex;
 }
 
 .nav-link{
    margin: 1px 20px;
+  
    font-size: 18px;
    color: white;
+   font-weight: 350;
    transition: .3s;
+   position: relative;
 }
 
-.nav-link:hover{
+.nav-link::before{
+    content: attr(content);
+    position: absolute;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.518);
+    height: 100%;
+    transition: .9s;
+}
+
+.nav-link:hover::before {
     cursor: pointer;
-    transition: .3s;
-    margin: 0 20px;
-    transform: scale(1.01);
-    color:aqua;
-    box-shadow: 0px 0px 100px 0px aqua;
+    filter: drop-shadow(0 0 10px aqua);
+    border-bottom: 1px solid aqua;
+    color: aqua;
+    height: 1%;  
 }
 
 .nav-link2{
@@ -79,6 +89,7 @@ nav .nav-box{
     text-align: center;
     font-size:18px;
     margin-top: 1px;
+    
 }
 
 .div-noviy:hover .noviy-all{
@@ -87,19 +98,10 @@ nav .nav-box{
 }
 
 .nav-link1{
-    margin: 1px 460px 0 20px;
+    margin: 1px 480px 0 20px;
     font-size: 18px;
     color: white;
     transition: .3s;
-}
-
-.nav-link1:hover{
-    transition: .3s;
-    cursor: pointer;
-    /* margin: 0 240px 0 20px; */
-    transform: scale(1.01);
-    color:aqua;
-    box-shadow: 0px 0px 100px 0px aqua;
 }
 
 .fa-bars:hover{
@@ -201,33 +203,41 @@ nav .nav-box{
 }
 
 .noviy-all{
-    width: 180px;
-    height: 200px;
+    
     position: absolute;
     word-spacing: 20px;
-    right: 6px;
-    top: 22px;
-    padding: 0 25px;
+    right: 0px;
+    top: 10px;
+    padding: 0px 25px;
+    
+    display: none;
+}
+
+
+.noviy-drop{
+    width: 180px;
+    height: 190px;
+    padding-top: 10px;
     border-radius:10px;
     background-color:aqua;
     border-top-right-radius: 0;
     box-shadow: 0px 0px 200px 0px aqua;
-    display: none;
 }
 
-.noviy-drop p{
+.noviy-link{
     font-size: 20px;
     font-weight: 500;
+    padding-left: 30px;
     line-height: 30px;
     margin-bottom: 3px;
     color: black;
     transition: .3s;
 }
 
-.noviy-drop p:hover{
-    border-bottom:solid 1px black ;
+.noviy-link:hover{
     transition: .3s;
     cursor: pointer;
+    color: white;
 }
 
 .sign-all{
@@ -636,7 +646,7 @@ nav .nav-box{
     transition: 1s;
     cursor: pointer;
     transform: scale(1.1);
-    box-shadow: 0px 0px 100px 0px aqua;
+    filter: drop-shadow(0 0 15px aqua);
 }
 
 .class-section{
